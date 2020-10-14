@@ -2,3 +2,6 @@ node_modules
 coverage
 uploads/*
 !uploads/.gitkeep
+ormconfig.json
+build
+.env
