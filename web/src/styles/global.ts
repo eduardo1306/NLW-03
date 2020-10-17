@@ -14,5 +14,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body, input, button, textarea {
     font: 600 18px Nunito, sans-serif;
+    outline: none;
   }
 `;

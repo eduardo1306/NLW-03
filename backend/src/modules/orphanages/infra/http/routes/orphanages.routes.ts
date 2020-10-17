@@ -21,7 +21,7 @@ orphanagesRouter.post(
         about: Joi.string().required().max(300),
         instructions: Joi.string().required(),
         opening_hours: Joi.string().required(),
-        open_on_weekends: Joi.string().required(),
+        open_on_weekends: Joi.boolean().required(),
         images: Joi.array().items(
           Joi.object({
             path: Joi.string().required(),
